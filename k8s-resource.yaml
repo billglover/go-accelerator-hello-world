@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: go-hello-world-accelerator
+spec:
+  git:
+    url: https://github.com/billglover/go-accelerator-hello-world.git
+    ref:
+      branch: main

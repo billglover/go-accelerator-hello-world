@@ -1,0 +1,16 @@
+accelerator:
+  displayName: go-hello-world
+  description: Accelerate your greetings with this Go HelloWorld service.
+  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
+  tags:
+  - Go
+  - GoLang
+  - HelloWorld
+  options:
+  - name: optionName
+    label: Nice Label
+    display: true
+    defaultValue: ""
+engine:
+  include:
+  - '**'
